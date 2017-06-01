@@ -106,7 +106,8 @@ declare namespace EngineIOClient {
      * The client class. Mixes in Emitter. Exposed as eio in the browser standalone build.
      */
     class Socket extends _Events<{
-        open : [string | ArrayBuffer]
+        open : [void]     
+        message : [string | ArrayBuffer]
         close : [void]
         error : [void]
         flush : [void]
