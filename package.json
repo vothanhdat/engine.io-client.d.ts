@@ -2,10 +2,10 @@
   "_args": [
     [
       {
-        "raw": "@types/engine.io",
+        "raw": "@types/engine.io-client",
         "scope": "@types",
-        "escapedName": "@types%2fengine.io",
-        "name": "@types/engine.io",
+        "escapedName": "@types%2fengine.io-client",
+        "name": "@types/engine.io-client",
         "rawSpec": "",
         "spec": "latest",
         "type": "tag"
@@ -16,7 +16,7 @@
   "dependencies": {
     "@types/node": "*"
   },
-  "description": "TypeScript definitions for engine.io",
+  "description": "TypeScript definitions for engine.io-client",
   "devDependencies": {},
   "directories": {},
   "license": "MIT",
@@ -26,7 +26,7 @@
       "email": "vothanhdat@outlook.com"
     }
   ],
-  "name": "@types/engine.io",
+  "name": "@types/engine.io-client",
   "readme": "ERROR: No README data found!",
   "scripts": {},
   "version": "0.0.1"
